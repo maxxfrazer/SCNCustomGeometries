@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF2136122186251D00B0D687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136112186251D00B0D687 /* AppDelegate.swift */; };
+		AF2136142186251D00B0D687 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2136132186251D00B0D687 /* art.scnassets */; };
+		AF2136162186251D00B0D687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136152186251D00B0D687 /* ViewController.swift */; };
+		AF2136192186251D00B0D687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2136172186251D00B0D687 /* Main.storyboard */; };
+		AF21361B2186251E00B0D687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF21361A2186251E00B0D687 /* Assets.xcassets */; };
+		AF21361E2186251E00B0D687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF21361C2186251E00B0D687 /* LaunchScreen.storyboard */; };
+		AF2136262186253900B0D687 /* SCNGeometry+Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136252186253900B0D687 /* SCNGeometry+Plane.swift */; };
+		AF2136282186373F00B0D687 /* SCNGeometry+Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136272186373F00B0D687 /* SCNGeometry+Box.swift */; };
+		AF21362A2186462000B0D687 /* SCNGeometry+SkewBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136292186462000B0D687 /* SCNGeometry+SkewBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF21360E2186251D00B0D687 /* SCNCustomGeometries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCNCustomGeometries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2136112186251D00B0D687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF2136132186251D00B0D687 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AF2136152186251D00B0D687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF2136182186251D00B0D687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF21361A2186251E00B0D687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF21361D2186251E00B0D687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF21361F2186251E00B0D687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2136252186253900B0D687 /* SCNGeometry+Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNGeometry+Plane.swift"; sourceTree = "<group>"; };
+		AF2136272186373F00B0D687 /* SCNGeometry+Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNGeometry+Box.swift"; sourceTree = "<group>"; };
+		AF2136292186462000B0D687 /* SCNGeometry+SkewBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNGeometry+SkewBox.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF21360B2186251D00B0D687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2136052186251D00B0D687 = {
+			isa = PBXGroup;
+			children = (
+				AF2136102186251D00B0D687 /* SCNCustomGeometries */,
+				AF21360F2186251D00B0D687 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF21360F2186251D00B0D687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF21360E2186251D00B0D687 /* SCNCustomGeometries.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2136102186251D00B0D687 /* SCNCustomGeometries */ = {
+			isa = PBXGroup;
+			children = (
+				AF2136112186251D00B0D687 /* AppDelegate.swift */,
+				AF2136132186251D00B0D687 /* art.scnassets */,
+				AF2136152186251D00B0D687 /* ViewController.swift */,
+				AF2136252186253900B0D687 /* SCNGeometry+Plane.swift */,
+				AF2136272186373F00B0D687 /* SCNGeometry+Box.swift */,
+				AF2136292186462000B0D687 /* SCNGeometry+SkewBox.swift */,
+				AF2136172186251D00B0D687 /* Main.storyboard */,
+				AF21361A2186251E00B0D687 /* Assets.xcassets */,
+				AF21361C2186251E00B0D687 /* LaunchScreen.storyboard */,
+				AF21361F2186251E00B0D687 /* Info.plist */,
+			);
+			path = SCNCustomGeometries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF21360D2186251D00B0D687 /* SCNCustomGeometries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2136222186251E00B0D687 /* Build configuration list for PBXNativeTarget "SCNCustomGeometries" */;
+			buildPhases = (
+				AF21360A2186251D00B0D687 /* Sources */,
+				AF21360B2186251D00B0D687 /* Frameworks */,
+				AF21360C2186251D00B0D687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCNCustomGeometries;
+			productName = SCNCustomGeometries;
+			productReference = AF21360E2186251D00B0D687 /* SCNCustomGeometries.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF2136062186251D00B0D687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Max Cobb";
+				TargetAttributes = {
+					AF21360D2186251D00B0D687 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AF2136092186251D00B0D687 /* Build configuration list for PBXProject "SCNCustomGeometries" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF2136052186251D00B0D687;
+			productRefGroup = AF21360F2186251D00B0D687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF21360D2186251D00B0D687 /* SCNCustomGeometries */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF21360C2186251D00B0D687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2136142186251D00B0D687 /* art.scnassets in Resources */,
+				AF21361E2186251E00B0D687 /* LaunchScreen.storyboard in Resources */,
+				AF21361B2186251E00B0D687 /* Assets.xcassets in Resources */,
+				AF2136192186251D00B0D687 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF21360A2186251D00B0D687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2136282186373F00B0D687 /* SCNGeometry+Box.swift in Sources */,
+				AF2136262186253900B0D687 /* SCNGeometry+Plane.swift in Sources */,
+				AF2136162186251D00B0D687 /* ViewController.swift in Sources */,
+				AF2136122186251D00B0D687 /* AppDelegate.swift in Sources */,
+				AF21362A2186462000B0D687 /* SCNGeometry+SkewBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF2136172186251D00B0D687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF2136182186251D00B0D687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF21361C2186251E00B0D687 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF21361D2186251E00B0D687 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF2136202186251E00B0D687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF2136212186251E00B0D687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF2136232186251E00B0D687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2RTJDRM64;
+				INFOPLIST_FILE = SCNCustomGeometries/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxfrazer.SCNCustomGeometries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF2136242186251E00B0D687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2RTJDRM64;
+				INFOPLIST_FILE = SCNCustomGeometries/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxfrazer.SCNCustomGeometries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF2136092186251D00B0D687 /* Build configuration list for PBXProject "SCNCustomGeometries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2136202186251E00B0D687 /* Debug */,
+				AF2136212186251E00B0D687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2136222186251E00B0D687 /* Build configuration list for PBXNativeTarget "SCNCustomGeometries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2136232186251E00B0D687 /* Debug */,
+				AF2136242186251E00B0D687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF2136062186251D00B0D687 /* Project object */;
+}

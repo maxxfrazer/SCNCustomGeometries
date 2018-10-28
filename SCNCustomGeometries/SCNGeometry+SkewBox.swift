@@ -1,0 +1,52 @@
+//
+//  SCNGeometry+SkewBox.swift
+//  SCNCustomGeometries
+//
+//  Created by Max Cobb on 28/10/2018.
+//  Copyright © 2018 Max Cobb. All rights reserved.
+//
+
+import SceneKit.SCNGeometry
+
+extension SCNGeometry {
+	static func SkewBox(width: CGFloat, height: CGFloat, length: CGFloat, skew: CGPoint) -> SCNGeometry {
+		let w = width / 2
+		let h = height / 2
+		let l = length / 2
+		let src = SCNGeometrySource(vertices: [
+			// bottom 4 vertices
+			SCNVector3(-w, -h, -l),
+			SCNVector3(w, -h, -l),
+			SCNVector3(w, -h, l),
+			SCNVector3(-w, -h, l),
+
+			// top 4 vertices
+			SCNVector3(-w + skew.x, h, -l + skew.y),
+			SCNVector3(w + skew.x, h, -l + skew.y),
+			SCNVector3(w + skew.x, h, l + skew.y),
+			SCNVector3(-w + skew.x, h, l + skew.y),
+		])
+		let indices: [UInt32] = [
+			// bottom face
+			0, 1, 3,
+			3, 1, 2,
+			// left face
+			0, 3, 4,
+			4, 3, 7,
+			// right face
+			1, 5, 2,
+			2, 5, 6,
+			// top face
+			4, 7, 5,
+			5, 7, 6,
+			// front face
+			3, 2, 7,
+			7, 2, 6,
+			// back face
+			0, 4, 1,
+			1, 4, 5
+		]
+		let inds = SCNGeometryElement(indices: indices, primitiveType: .triangles)
+		return SCNGeometry.init(sources: [src], elements: [inds])
+	}
+}
