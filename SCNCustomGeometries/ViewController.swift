@@ -35,7 +35,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 		lightNode.light = light
 		sceneView.pointOfView?.addChildNode(lightNode)
 
-		let newNode = SCNNode(geometry: SCNGeometry.SkewBox(width: 0.2, height: 0.2, length: 0.2, skewTop: CGPoint(x: 0.1, y: 0.2)))
+		let newNode = SCNNode(geometry: SCNGeometry.SkewBox(width: 0.2, height: 0.2, length: 0.2, skew: CGPoint(x: 0.1, y: 0.2)))
 		newNode.position.z = -1
 //		newNode.geometry?.firstMaterial?.diffuse.contents = UIImage(named: "labyrinth_marker")
 		sceneView.scene.rootNode.addChildNode(newNode)

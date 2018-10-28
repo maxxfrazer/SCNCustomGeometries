@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		AF2136122186251D00B0D687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136112186251D00B0D687 /* AppDelegate.swift */; };
-		AF2136142186251D00B0D687 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2136132186251D00B0D687 /* art.scnassets */; };
 		AF2136162186251D00B0D687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136152186251D00B0D687 /* ViewController.swift */; };
 		AF2136192186251D00B0D687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2136172186251D00B0D687 /* Main.storyboard */; };
 		AF21361B2186251E00B0D687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF21361A2186251E00B0D687 /* Assets.xcassets */; };
 		AF21361E2186251E00B0D687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF21361C2186251E00B0D687 /* LaunchScreen.storyboard */; };
-		AF2136262186253900B0D687 /* SCNGeometry+Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136252186253900B0D687 /* SCNGeometry+Plane.swift */; };
-		AF2136282186373F00B0D687 /* SCNGeometry+Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136272186373F00B0D687 /* SCNGeometry+Box.swift */; };
-		AF21362A2186462000B0D687 /* SCNGeometry+SkewBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136292186462000B0D687 /* SCNGeometry+SkewBox.swift */; };
+		AF21362C218680D600B0D687 /* SCNGeometry+Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136252186253900B0D687 /* SCNGeometry+Plane.swift */; };
+		AF21362D218680D600B0D687 /* SCNGeometry+Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136272186373F00B0D687 /* SCNGeometry+Box.swift */; };
+		AF21362E218680D600B0D687 /* SCNGeometry+SkewBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2136292186462000B0D687 /* SCNGeometry+SkewBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF21360E2186251D00B0D687 /* SCNCustomGeometries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCNCustomGeometries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2136112186251D00B0D687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF2136132186251D00B0D687 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		AF2136152186251D00B0D687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF2136182186251D00B0D687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF21361A2186251E00B0D687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,17 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				AF2136112186251D00B0D687 /* AppDelegate.swift */,
-				AF2136132186251D00B0D687 /* art.scnassets */,
 				AF2136152186251D00B0D687 /* ViewController.swift */,
-				AF2136252186253900B0D687 /* SCNGeometry+Plane.swift */,
-				AF2136272186373F00B0D687 /* SCNGeometry+Box.swift */,
-				AF2136292186462000B0D687 /* SCNGeometry+SkewBox.swift */,
+				AF21362B2186806400B0D687 /* SCNGeometry+Extensions */,
 				AF2136172186251D00B0D687 /* Main.storyboard */,
 				AF21361A2186251E00B0D687 /* Assets.xcassets */,
 				AF21361C2186251E00B0D687 /* LaunchScreen.storyboard */,
 				AF21361F2186251E00B0D687 /* Info.plist */,
 			);
 			path = SCNCustomGeometries;
+			sourceTree = "<group>";
+		};
+		AF21362B2186806400B0D687 /* SCNGeometry+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF2136252186253900B0D687 /* SCNGeometry+Plane.swift */,
+				AF2136272186373F00B0D687 /* SCNGeometry+Box.swift */,
+				AF2136292186462000B0D687 /* SCNGeometry+SkewBox.swift */,
+			);
+			path = "SCNGeometry+Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +139,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2136142186251D00B0D687 /* art.scnassets in Resources */,
 				AF21361E2186251E00B0D687 /* LaunchScreen.storyboard in Resources */,
 				AF21361B2186251E00B0D687 /* Assets.xcassets in Resources */,
 				AF2136192186251D00B0D687 /* Main.storyboard in Resources */,
@@ -148,11 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2136282186373F00B0D687 /* SCNGeometry+Box.swift in Sources */,
-				AF2136262186253900B0D687 /* SCNGeometry+Plane.swift in Sources */,
+				AF21362C218680D600B0D687 /* SCNGeometry+Plane.swift in Sources */,
+				AF21362D218680D600B0D687 /* SCNGeometry+Box.swift in Sources */,
+				AF21362E218680D600B0D687 /* SCNGeometry+SkewBox.swift in Sources */,
 				AF2136162186251D00B0D687 /* ViewController.swift in Sources */,
 				AF2136122186251D00B0D687 /* AppDelegate.swift in Sources */,
-				AF21362A2186462000B0D687 /* SCNGeometry+SkewBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
